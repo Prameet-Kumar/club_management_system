@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/05d71ec5ea.js" crossorigin="anonymous"></script>
+    <script async src="https://api.countapi.xyz/hit/club.com/4e5143cb-25d3-4c86-a436-e88d9f2ab3cf?callback=websiteVisits"></script>  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <img height="50%"width="50%" src="image/logo.png" alt="">
+    <div class="navigation">
+        <ul>
+            <i id="menu-close" class="fas fa-times"></i>
+            <li><a href="club.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#">Vote</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+
+        </ul>
+        <img id="menu-btn" src="image/menu.png"alt="">
+    </div>
+</nav>
+  <div id="wrapper">
+
+    <div class="container">
+      <h1>My Gallery</h1>
+      
+      <div class="gallery">
+        
+        <figure class="card">
+          <img src="image1.webp" alt="">
+          <figcaption class="caption">Bug Hunting</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="image2.jpg" alt="">
+          <figcaption class="caption">Surveing</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="image3.png" alt="">
+          <figcaption class="caption">image3</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="123.jpg" alt="">
+          <figcaption class="caption">Nukkad Natak</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="image6.jpg" alt="">
+          <figcaption>Robotics</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="image7.jpg" alt="">
+          <figcaption>Dancing</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="image8.jpg" alt="">
+          <figcaption>Coding</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="Photography.jpeg" alt="">
+          <figcaption>Photography</figcaption>
+        </figure>
+        <figure class="card">
+          <img src="Poster making.jpeg" alt="">
+          <figcaption>Poster Making</figcaption>
+        </figure>
+      </div>
+    </div>
+
+  
+  </div>
+  <script>
+  $('#menu-btn').click(function(){
+
+    $('nav .navigation ul').addClass('active')
+    });
+            $('#menu-close').click(function(){
+    
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+</body>
+</html>

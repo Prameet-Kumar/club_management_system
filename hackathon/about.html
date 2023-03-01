@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="icon" href="images/infinity2.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav >
+        <img height="50%"width="50%" src="image/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="club.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">Vote</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+
+            </ul>
+            <img id="menu-btn" src="image/menu.png"alt="">
+        </div>
+    </nav>
+
+    <div style="margin-bottom:40px"  class="AboutUs">
+
+        <div class="club1 club">
+            <h1>Esros</h1>
+            <img src="esros-removebg-preview.png" width="50%" height="50%" alt="">
+            <p>Robotics is the intersection of science, engineering and technology that produces machines, called
+                robots, that replicate or substitute for human actions.</p>
+            <button>Join Now</button>
+        </div>
+        <div class="club2 club">
+            <h1>Debuggerzz</h1>
+            <img src="debug-removebg-preview.png" width="50%" height="50%" alt="">
+            <p>Debuggerezz is the official coding club of BCE Bhagalpur. It provides opportunity to students to learn
+                coding and to compete with others in coding to improve coding skills.</p>
+            <button>Join Now</button>
+
+        </div>
+        <div class="club3 club">
+            <h1>Nukkar</h1>
+            <img src="nukkar (1).jpeg" width="40%" height="30%" alt="">
+            <p>Its main aim is to go closer to those who have been marginalized by society and to convey the message
+                through the direct and effective means of dramaturgy. It focuses on the social and political issues of
+                people with an aim to create awareness among all the people. 
+                </p>
+            <button>Join Now</button>
+        </div>
+        <div class="club4 club">
+            <h1>Campus Tv & radio</h1>
+            <img src="logoctv.png" width="40%" height="30%" alt="">
+            <p>Frontier is one of the club run byCTV members who not not shot the videos and photos
+                but also collect the students and provide technological knowledge by guiding them in the feild like
+                AutoCAD solidwork matlab photography videography and many other .</p>
+            <button>Join Now</button>
+        </div>
+        <div class="club5 club">
+            <h1>Dance Club</h1>
+            <img src="danceclub.jpg" width="40%" height="30%" alt="">
+            <p>Dance team is a wonderful opportunity to continue doing something you love and to meet new people at the
+                same time. It will help you develop new skills and strengths that can be translated into other genres.
+                Teamwork will have a new definition. You will be a role model to future members and younger members.</p>
+            <button>Join Now</button>
+        </div>
+        <div class="club6 club">
+            <h1> Girls Coding</h1>
+            <img src="girlscoding.jpg" width="40%" height="30%"alt="">
+            <p>The Coding Club provides participating students an opportunity to learn the basics of computer
+                programming in a team setting. The club's main focus is on creating applications, websites, games,
+                stem/steam workshops, and other projects to share with LCC and the community</p>
+            <button>Join Now</button>
+        </div>
+    </div>
+
+    <script>
+        $('#menu-btn').click(function(){
+      
+          $('nav .navigation ul').addClass('active')
+          });
+                  $('#menu-close').click(function(){
+          
+                      $('nav .navigation ul').removeClass('active')
+                  });
+              </script>
+</body>
+
+</html>

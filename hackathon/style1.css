@@ -1,0 +1,36 @@
+.counter {
+  height: 70px;
+  width: 100px;
+  display: flex;
+  background-color: #37b182;
+  color: black;
+  align-items: center;
+  justify-content: center;
+   position:absolute;
+   bottom:20px;
+  padding: 2px;
+  gap: 15px;
+  box-shadow: 8px 8px 16px black;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+  animation: visit 7s linear infinite;
+}
+.counter:hover {
+  transform: scale(1.1);
+}
+@keyframes visit {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(80vw);
+    opacity: 0;
+  }
+}
